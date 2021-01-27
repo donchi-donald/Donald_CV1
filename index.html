@@ -7,6 +7,41 @@
        
         <!--Page Title-->
         <title>Donald CV</title>
+        <style>
+            @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+            @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+            .link{
+                color: rgb(72, 141, 26);
+	            font-family: Arial;
+	            font-size: 40px;
+                
+                text-decoration: underline;
+                text-decoration: underline overline;
+            }
+            .titre{
+                color: rgb(0,0,0);
+	            font-family: Arial;
+	            font-size: 40px;
+                text-decoration: underline overline;
+
+            }
+            .sous-titre{
+                color: rgb(77, 16, 190);
+	            font-family: Arial;
+	            font-size: 40px;
+
+            }
+
+            .beschreibung{
+                font-family: Arial;
+	            font-size: 30px;
+            }
+
+            .aboutme{
+                font-family: Arial;
+	            font-size: 30px;
+            }
+        </style>
 
         <!--Plugins Css-->
         <link rel="stylesheet" href="css/plugins.css">
@@ -76,15 +111,17 @@
                             <!--Social Links-->
                             <ul class="social">
                                 <li><a href="https://www.facebook.com/donald.donchi/"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#" class="fa fa-xing-square"></a></li>
                                 <li><a href="https://twitter.com/DonaldDonchi"><i class="fab fa-twitter-square"></i></a></li>
                                 <li><a href="https://www.youtube.com/channel/UC-fwPFfiUpJHgirIbUomOKA"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="#" class="fa fa-rss-s"></a></li>
                                <!-- <li><a href="#"><i class="fab fa-dribbble-square"></i></a></li>
                                 <li><a href="#"><i class="fab fa-behance-square"></i></a></li> 
                             -->
                             </ul>
                             <!--Copyright Text-->
                             <div class="copy">
-                                <p>2020 &copy; leprincedoni2000.<br>All Right Reserved.</p>
+                                <p>2020 &copy; donchidonald.<br>All Right Reserved.</p>
                             </div>
                         </div>
 
@@ -106,11 +143,12 @@
 
                         <!--Animated Text-->
                         <p class="cd-headline clip is-full-width">
-                        <span>I am a </span>
+                        <span>Ich bin  </span>
                         <span class="cd-words-wrapper">
                             <b class="is-visible">Student</b>
-                            <b>future software developer</b>
-                            <b>future web developer</b>
+                            <!-- 
+                            <b>ein zukünftiger</b>
+                            <b>future web developer</b> -->
                            
                         </span>
                         </p>
@@ -135,9 +173,9 @@
 
                             <div class="col-lg-8">
                                 <!--Personal Intro-->
-                                <h3 class="mb-20">I am a computer science student</h3>
-                                <p>Hello! I am Donald Donchi Fofack. Student</p>
-                                <p>I'm studying engineering computer science at the THM Giessen, I'm in the 4th semester. My strengths include reliability, independent and precise work. Strategic thinking, accuracy and organizational skills are also part of it. I see new tasks as a challenge and I am always happy to accept them. Working in a team as well as communicating with colleagues are very important to me in my job.</p>
+                                <p class="aboutme"> <strong> Ich bin IngenieurInformatiker</strong> </p>
+                                <p class="aboutme"> Hallo! Ich heiße Donchi Fofack Donald. Student</p>
+                                <p class="aboutme">Ich bin IngenieurInformatiker an der Thm Giessen, aktuel im 4. Semester.  Ich habe gute deutsche Kenntnissen, Grundkenntnisse in Englisch und Französisch als Muttersprache. Kommunikation, Soziabilität und Teamfähig sind meine stärken. Ich kann gut mit Stress umgehen un bin kritikfähig. Ich bin bereit neues zu lernen und bin zuverlassig mit der Arbeit</p>
                                 
                               
                             </div>
@@ -145,19 +183,19 @@
                             <!--Personal Info-->
                             <div class="col-lg-4">
                                 <div class="about-info">
-                                    <h3 class="mb-20">Personal Information</h3>
+                                    <h3 class="mb-20">Grundinformationen</h3>
                                     <ul>
                                         <li><span class="title">Name</span><span class="value">Donald Donchi Fofack</span></li>
-                                        <li><span class="title">Age</span><span class="value">20 Years</span></li>
-                                        <li><span class="title">Residence</span><span class="value">Giessen,GERMANY</span></li>
+                                        <li><span class="title">Aler</span><span class="value">20 Jahre alt</span></li>
+                                        <li><span class="title">Wohnort</span><span class="value">Giessen,GERMANY</span></li>
                                         <li><span class="title">Address</span><span class="value">63 unterhof</span></li>
                                         <li><span class="title">Email</span><span class="value">donchidonald2000@gmail.com</span></li>
-                                        <li><span class="title">Phone</span><span class="value">+49 176 5574 8384</span></li>
-                                        <li><span class="title">Github</span><span class="value"><a href="https://github.com/leprincedoni2000">leprincedoni2000</a></span></li>
+                                        <li><span class="title">Telefonnummer</span><span class="value">+49 176 5574 8384</span></li>
+                                        <li><span class="title">Github</span><span class="value"><span><a href="https://github.com/donchi-donald"><strong>donchi-donald</strong></a></span></li>
                                         
                                     </ul>
                                     <div class="resume-button mt-30">
-                                        <a class="btn-main" href="cvdoni.pdf">Download Resume</a>
+                                        <a class="btn-main" href="cvdoni.pdf">Lebenslauf herunterladen</a>
                                     </div>
                                 </div>
                             </div>
@@ -191,15 +229,16 @@
                                     <li>
                                         <span class="line-left"></span>
                                         <div class="content">
-                                            <h4>working student as tutor</h4>
-                                            <h5>THM, Giessen, GERMANY</h5>
+                                            <h4>Werkstudent als Tutor</h4>
+                                            <h5>THM, Giessen, Deutschland</h5>
                                             <p class="info">
-                                                KSP (concept of system-oriented programming) Construction of a virtual machine for the execution of translated programs of the small programming language Ninja ("Ninja is not Java ")
+                                                KSP(konzept Systemnaher Programmierung)
+                                                Aufbau einer virtuellen Maschine zur Ausführung übersetzter Programme der kleinen Programmiersprache Ninja ("Ninja ist nicht Java")
                                             </p>
                                         </div>
                                         <span class="year">
-                                            <span class="to">today</span>
-                                            <span class="from">01/11/2020</span>
+                                            <span class="to">heute</span>
+                                            <span class="from">11/2020</span>
                                         </span>
                                     </li>
 
@@ -207,14 +246,16 @@
                                     <li>
                                         <span class="line-left"></span>
                                         <div class="content">
-                                            <h4>Stepmentor for beginners</h4>
+                                            <h4>Stepmentor</h4>
                                             <h5>THM, Giessen, GERMANY</h5>
                                             <p class="info">
-                                                We gave the Erties tips, shared our personal experiences, conveyed the benefits of studying online, showed where the library is, how the cafeteria works and helped with orientation and arrival at the THM.                                            </p>
+                                                Wir gaben den Erties Tipps, tauschten unsere persönlichen Erfahrungen aus, vermittelten 
+                                                die Vorteile des Online-Studiums, zeigten, wo sich die Bibliothek befindet, 
+                                                wie die Cafeteria funktioniert und halfen bei der Orientierung und Ankunft im THM. </p>
                                         </div>
                                         <span class="year">
-                                            <span class="to">05/10/2020</span>
-                                            <span class="from">30/10/2020</span>
+                                            <span class="to">10/2020</span>
+                                            <span class="from">10/2020</span>
                                         </span>
                                     </li>
 
@@ -222,15 +263,15 @@
                                     <li>
                                         <span class="line-left"></span>
                                         <div class="content">
-                                            <h4>Bridging course helper for programmers</h4>
+                                            <h4>Überbrückungskurshelfer für Programmierer</h4>
                                             <h5>THM, Giessen, GERMANY</h5>
                                             <p class="info">
-                                                We helped the beginners get started with programming.
+                                                Wir haben den Anfängern geholfen, mit dem Programmieren zu beginnen.
                                             </p>
                                         </div>
                                         <span class="year">
-                                            <span class="to">28/09/2020</span>
-                                            <span class="from">02/10/2020</span>
+                                            <span class="to">09/2020</span>
+                                            <span class="from">10/2020</span>
                                         </span>
                                     </li>
 
@@ -253,11 +294,11 @@
                                             <h4>Student</h4>
                                             <h5>THM, Giessen, GERMANY</h5>
                                             <p class="info">
-                                                I have chosen computer science engineering as a course of study.
+                                                Ich bin IngenieurInformatiker.
                                             </p>
                                         </div>
                                         <span class="year">
-                                            <span class="to">today</span>
+                                            <span class="to">heute</span>
                                             <span class="from">03/2019</span>
                                         </span>
                                     </li>
@@ -266,10 +307,10 @@
                                     <li>
                                         <span class="line-left"></span>
                                         <div class="content">
-                                            <h4>Language student</h4>
+                                            <h4>Sprachschüler</h4>
                                             <h5>TU Kaiserslautern, Kaiserslautern, GERMANY</h5>
                                             <p class="info">
-                                                I completed my German course with a DSH2.                                            
+                                                Ich habe meinen Deutschkurs mit einem DSH2 abgeschlossen.                                            
                                             </p>
                                         </div>
                                         <span class="year">
@@ -282,10 +323,10 @@
                                     <li>
                                         <span class="line-left"></span>
                                         <div class="content">
-                                            <h4>Language student</h4>
+                                            <h4>Sprachschüler</h4>
                                             <h5>Goethe Institut, jaunde, Kamerun</h5>
                                             <p class="info">
-                                                I completed my German course with the B2 and B1 German certificate.                                            
+                                                Ich habe meinen Deutschkurs mit dem Deutschzertifikat B2 und B1 abgeschlossen.                                            
                                             </p>
                                         </div>
                                         <span class="year">
@@ -301,7 +342,7 @@
                                             <h4>student</h4>
                                             <h5>Gymnasium Lycee de nkolbisson, jaunde, Kamerun</h5>
                                             <p class="info">
-                                                Degree in major  Math and Physics with the grade: 2.8;                                              
+                                                Abschluss in Hauptfach Mathematik und Physik mit der Note: 2,8;                                              
                                             </p>
                                         </div>
                                         <span class="year">
@@ -361,8 +402,8 @@
                                 <div class="skill-item">
                                     <h4 class="progress-title">Springboot</h4>
                                     <div class="progress">
-                                        <div class="progress-bar" data-progress-value="50">
-                                            <div class="progress-value">50%</div>
+                                        <div class="progress-bar" data-progress-value="70">
+                                            <div class="progress-value">70%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -381,8 +422,8 @@
                                 <div class="skill-item">
                                     <h4 class="progress-title">nodejs</h4>
                                     <div class="progress">
-                                        <div class="progress-bar" data-progress-value="40">
-                                            <div class="progress-value">40%</div>
+                                        <div class="progress-bar" data-progress-value="60">
+                                            <div class="progress-value">60%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -454,8 +495,8 @@
                                 <div class="skill-item">
                                     <h4 class="progress-title">python</h4>
                                     <div class="progress">
-                                        <div class="progress-bar" data-progress-value="50">
-                                            <div class="progress-value">50%</div>
+                                        <div class="progress-bar" data-progress-value="70">
+                                            <div class="progress-value">70%</div>
                                         </div>
                                        
                                     </div>
@@ -498,14 +539,33 @@
                         <div class="row">
                             <!--Portfolio Filter-->
                             <div class="col-md-12 portfolio-filter text-center">
-                                <h2><strong>Check Out Some of My Works.</strong></h2></br>
-                                <h4>They are all available on <a href="https://github.com/leprincedoni2000"><strong>Github</strong></a></h4>
+                                <h2 class="titre">Schauen Sie sich einige meiner Werke an.</h2></br>
+                                <h4 class="titre">Die sind alle verfügbar auf meiner<a class="link" href="https://github.com/leprincedoni2000"> Github-Seite </a></h4>
                             </div>
                         </div>
 
 
-
-                        <h4><a href="https://github.com/leprincedoni2000/Caesar_and_double_cube_encryption"><strong>Caesar_and_double_cube_encryption</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Mein OnlineLebenslauf</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm zeigt meinen Lebenslauf, wurde in (HTML5, css3 und python) entwickelt.</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/mycv/lebenslauf.png">
+                                    <figure>
+                                        <img src="img/portfolio/mycv/lebenslauf.png" alt="">
+                                        <figcaption>
+                                            <h4>CV</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Caesar_and_double_cube_encryption"><strong>--->Caesar und Doppelwuerfelkodierung</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Projekt wurde in Java Javafx und css3 entwickelt. Mit diesem Programm ist es möglich, Texte mit dem Cäsar- und DoppelwuefelVerschlüsselungsverfahren zu ver- und entschlüsseln.  Es ist auch möglich 
+                            sich Threads, die nebenläufig laufen, anzuschauen und dazu kommt noch einige wichtige Informatiksprichwort.
+                        </p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
 
@@ -575,7 +635,26 @@
                             </div>
                         </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/timer"><strong>Timer</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Caesar und wuerfel(alte Version)</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm wurde in java entwickelt. Die Beschreibung ist gleich wie oben</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/dw/alt.png">
+                                    <figure>
+                                        <img src="img/portfolio/dw/alt.png" alt="">
+                                        <figcaption>
+                                            <h4>Caesar</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/timer"><strong>--->Timer</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Projekt wurde in java realisiert und die graphische Oberfläche wurde mit Swing gemacht. Es ist ein einfaches Stoppuhr. </p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -592,7 +671,8 @@
                             </div>
                         </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/simple_calculator"><strong>simple calculator</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/simple_calculator"><strong>--->Tachenrechner</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Projekt wurde in java realisiert und die graphische Oberfläche wurde mit Swing gemacht. Es ist ein einfaches Tachenrechner. </p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -609,7 +689,9 @@
                             </div>
                         </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/njvm-ninja_virtual_machine"><strong>ninja virtual machine</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/njvm-ninja_virtual_machine"><strong>--->ninja virtual machine</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm wurde in c realisiert. Dazu gab es schon eine kleine Programmiersprache Ninja. Das Ziel der Aufgabe war es eine virtuele Maschine  für ninja 
+                            zu programmieren, die diese Sprache interpretiert. </p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -618,7 +700,7 @@
                                     <figure>
                                         <img src="img/portfolio/njvm/njvm.png" alt="">
                                         <figcaption>
-                                            <h4>njvm</h4>
+                                            <h4>njvm(ninja virtuelle Maschine)</h4>
                                             
                                         </figcaption>
                                     </figure>
@@ -638,7 +720,10 @@
                             </div>
                         </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/njvm_ninja_virtual_machine_autotest"><strong>Ninja virtual machine online tester</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/njvm_ninja_virtual_machine_autotest"><strong>--->Ninja virtual machine online tester</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Projekt wurde in HTML5, CSS3, PHP, Der größte Teil wurde in php geschrieben. Es wurde in Team von drei Leute realisiert. Das Projeckt besteht darin für 
+                            die kleine Programmiersprachen ninja, test zu schreiben, um die njvm(ninja virtual machine) zu testen. Das Projekt läuft schon in eimen Cloud-Server und zwar in AWS (Amazon Web Service). 
+                        Das Link ist folgend <a class="link" href="http://ksp.csmk59.de/"> ksptester</a> </p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -688,7 +773,10 @@
                             </div>
                         </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/server_client_datatransfer"><strong>server_client_datatransfer</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/server_client_datatransfer"><strong>--->server_client_datatransfer</strong></a></h4> </br>
+                        <p class="beschreibung"> Das Projeckt wurde in Java,javafx und css entwickelt. Dieses Proogramm zeigt erstmal eine einfache Verbindung zwischen einem 
+                            Server und einem Client. Dazu wie das Datentransfert mittels TCP/IP-Verbindung über Sockets realisiert. Der Client hat viele Möglichkeiten. (wie zum Beispeil 
+                            Dateien in Server hochzuladen, herunterladen, löschen und anzeigen) Dafür sollte der Server ein ACK ertmal schicken.</p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -756,8 +844,26 @@
                                 </a>
                             </div>
                         </div>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->server_client_datatransfer(alte Version)</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm wurd in java(swing) realisiert. Die Beschreibung ist gleich wie oben</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/serverclient/alt.png">
+                                    <figure>
+                                        <img src="img/portfolio/serverclient/alt.png" alt="">
+                                        <figcaption>
+                                            <h4>java</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
 
-                        <h4><a href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>Start_whith_SpringBoot</strong></a></h4> </br>
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Start_whith_SpringBoot</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm zeigt nur ein HelloWorld in einer Webseite. Es zeigt mein Einstieg in Springboot. Ich habe das Framework-springboot in java dafür benutzt.</p>
                         <!--Portfolio Items-->
                         <div class="row portfolio-items mb-50">
                             <!--Portfolio Item-->
@@ -766,7 +872,147 @@
                                     <figure>
                                         <img src="img/portfolio/startspringboot/spring.png" alt="">
                                         <figcaption>
-                                            <h4>Timer</h4>
+                                            <h4>Springboot</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Start_witch_Angular</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm zeigt nur ein HelloWorld in einer Webseite. Es zeigt mein Einstieg in Angular. Ich habe das Framework-Angular(HTML5, javascript, typescript, css3) dafür benutzt.</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/angular/Angular.jpg">
+                                    <figure>
+                                        <img src="img/portfolio/angular/Angular.jpg" alt="">
+                                        <figcaption>
+                                            <h4>Angular</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Gausscher Algorithmus in python</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm hat mir im Fach LA(lineare Algebra) geholfen, meine Aufgabe shnell zu lösen. Es wurde in python realisiert. </p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/gausscherAlgo/gaus.png">
+                                    <figure>
+                                        <img src="img/portfolio/gausscherAlgo/gaus.png" alt="">
+                                        <figcaption>
+                                            <h4>Python</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->DonaldBlog-Post</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm zeigt einen kleinen Webblog mit Flask und SQLite in Python 3. Mit dieser Anwendung ist es möglich, alle Beiträge in Ihrer Datenbank 
+                            anzuzeigen und auf den Titel eines Beitrags zu klicken, um dessen Inhalt anzuzeigen und bei Bedarf der Datenbank einen neuen Beitrag hinzuzufügen 
+                            bzw. einen bestehenden Beitrag zu bearbeiten oder zu löschen.</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/donaldblogpost/blog.jpg">
+                                    <figure>
+                                        <img src="img/portfolio/donaldblogpost/blog.jpg" alt="">
+                                        <figcaption>
+                                            <h4>Python</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/donaldblogpost/blog.png">
+                                    <figure>
+                                        <img src="img/portfolio/donaldblogpost/blog.png" alt="">
+                                        <figcaption>
+                                            <h4>Python</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Freundschaft verwaltung</strong></a></h4> </br>
+                        <p class="beschreibung"> Dieses Programm wurde in Java realisiert, besonders mit dem Framework Springboot und maven und mit dem Datenbank Postgressql. Mit diesem Programm habe ich die Möglichkeiten, Nachricht an meinem
+                            Freund zu senden, Daten meiner Freunde in meinem DatenBank hinzufügen, löschen und bearbeiten. Es gibt dazu eine Api und Webapp</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/freundschaftverwaltung/freund.png">
+                                    <figure>
+                                        <img src="img/portfolio/freundschaftverwaltung/freund.png" alt="">
+                                        <figcaption>
+                                            <h4>Springboot</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                             <!--Portfolio Item-->
+                             <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/freundschaftverwaltung/freunds.jpeg">
+                                    <figure>
+                                        <img src="img/portfolio/freundschaftverwaltung/freunds.jpeg" alt="">
+                                        <figcaption>
+                                            <h4>Springboot</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Geheimzahlspiel(alte Version)</strong></a></h4> </br>
+                        <p class="beschreibung"> .Dieses Programm wurde in java(swing) entwickelt. Es ist ein Multiplayerspiele(die maximale Anzahl der Spieler ist 4.
+                            Über das Spiel: Das Computer wählt eine zufällige Zahl und eure Aufgabe besteht darin, sie zu finden. Ihr habt Angabe über die Anzahl und Summe der Ziffer
+                        der Geheimzahl. Zum Beispeil: Der Computer hat schon 25 ausgewählt. Eine Geheimzahl mit 2 Ziffer deren Summe 7 ist, konnte 43, 34, 70, 16, 61, 52, 25 sein. Der erste Spieler, der 25 findet 
+                        gewinnt das Spiel.</p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/geheimzahl/geheimspiel.png">
+                                    <figure>
+                                        <img src="img/portfolio/geheimzahl/geheimspiel.png" alt="">
+                                        <figcaption>
+                                            <h4>Geheimzahlspiel</h4>
+                                            
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h4><a class="sous-titre" href="https://github.com/leprincedoni2000/Website_SpringBoot"><strong>--->Mikroprozessortechnik</strong></a></h4> </br>
+                        <p class="beschreibung"> Auf einem MSP430-Board wurde verschiedene Aufgabe in der Programmiersprache c gemacht. Diese Aufgabe war: Leuchtdiode blinken lassen,
+                             Hallo Welt in LCD anzeigen lassen, Taschenrechner mit Binär-Textausgabe und Tasteninterrupts, Abwärts laufende Uhr mit akustischem Alarm(Tea-Timer), Veränderung der CPU-Taktfrequenz
+                             Impulse von einer rotierenden Welle zählen und anzeigen., Anzeige der Drehzahl des rotierenden Rades, Motoransteuerung, Analoges Signal von Potentiometer anzeigen und
+                            Park distanz Sensor. Ich habe alle Aufgabe interessant gefunden, den es war mehr praktish. Ich konnte code schreiben und das Ergebnis mich das Ergebnis direct auf dem Board anschauen. </p>
+                        <!--Portfolio Items-->
+                        <div class="row portfolio-items mb-50">
+                            <!--Portfolio Item-->
+                            <div class="item col-lg-4 col-sm-6 brand graphic">
+                                <a class="image-link" href="img/portfolio/micropro/bilbbericht.png">
+                                    <figure>
+                                        <img src="img/portfolio/micropro/bilbbericht.png" alt="">
+                                        <figcaption>
+                                            <h4>Mikroprozessortechnik</h4>
                                             
                                         </figcaption>
                                     </figure>
