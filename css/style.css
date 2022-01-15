@@ -3,8 +3,6 @@
 .link{
     color: rgb(72, 141, 26);
     font-family: Arial;
-    font-size: 40px;
-    
     text-decoration: underline;
     text-decoration: underline overline;
 }
